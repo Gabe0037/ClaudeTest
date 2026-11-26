@@ -1,0 +1,17 @@
+# --- Xcode: datos personales de cada usuario (no se comparten) ---
+xcuserdata/
+*.xcuserstate
+
+# --- Resultados de compilación ---
+build/
+DerivedData/
+
+# --- Swift Package Manager ---
+.build/
+
+# --- macOS ---
+.DS_Store
+
+# --- Claude Code: ajustes personales (los del proyecto sí se versionan) ---
+.claude/settings.local.json
+CLAUDE.local.md
