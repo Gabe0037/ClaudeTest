@@ -1,13 +1,15 @@
 # ClaudeTest
 
 App de práctica en SwiftUI para aprender a desarrollar con agentes de IA.
-El producto todavía no está definido: cuando exista, la descripción vivirá en `docs/PRD.md`.
+Producto: tracker de hábitos diarios. Lee `docs/PRD.md` (qué construimos) y
+`docs/ARCHITECTURE.md` (cómo) antes de planear cualquier feature.
+Las specs de cada feature están en `docs/features/`.
 
 ## Proyecto
 - Xcode 27.2, proyecto en formato nuevo (`project.xcproj`, JSON).
 - Proyecto: `testClaude/testClaude.xcodeproj` · Target y scheme: `MyApp`
 - Código fuente: `testClaude/MyApp/`
-- Multiplataforma: iOS, macOS y visionOS. Versión mínima 27.2 en todos.
+- Plataforma de la v1: **solo iPhone**, iOS 27.2 o superior.
 - Swift en modo 5 con aislamiento por defecto en `MainActor` y concurrencia accesible.
   Todo corre en el main actor salvo que se marque lo contrario (`nonisolated`, `@concurrent`).
 - Aún no hay target de tests.
